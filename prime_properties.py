@@ -5,8 +5,8 @@ from Algorithms.Fermat_Test import fermat
 def digit_sum(x):
     total = 0
     while x > 0:
-        total += x % 10
-        x /= 10
+        total += (x % 10)
+        x //= 10
     return total
 
 def power_of_two(x):
